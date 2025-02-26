@@ -1,3 +1,29 @@
-theme: minima
 title: Research
 description: Evolutionary biologist studying the evolution of biogeography and pollination syndromes in Hillieae (Rubiaceae)
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Fieldwork & Photos"
+    url: /photos/
+  - title: "Contact"
+    url: /contact/
+
+# Author details
+author:
+  name: "Laymon Ball"
+  bio: "PhD Candidate | Evolutionary Biology | Plant-Pollinator Interactions"
+  email: "lball4@lsu.edu"
+  github: "laymonb"
